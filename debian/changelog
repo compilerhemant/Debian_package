@@ -1,0 +1,6 @@
+node-cidr-regex (1.0.6-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #nnnn)
+  *
+
+ -- hemant_yadav <hemantcompiler@gmail.com>  Sun, 29 Oct 2017 12:49:38 +0000

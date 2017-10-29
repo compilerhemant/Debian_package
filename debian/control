@@ -1,0 +1,25 @@
+Source: node-cidr-regex
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: hemant_yadav <hemantcompiler@gmail.com>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+ , node-babel-cli
+ , node-babel-preset-es2015
+ , node-babel-register 
+Standards-Version: 4.1.1
+Homepage: https://github.com/flipjs/cidr-regex#readme
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-cidr-regex.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-cidr-regex.git
+
+Package: node-cidr-regex
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: Regular expression for matching CIDR (Classless Inter-Domain Routing)
+ .
+ Node.js is an event-based server-side JavaScript engine.
